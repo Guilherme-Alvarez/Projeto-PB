@@ -1,0 +1,179 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mae{
+    display: inline-block;
+    
+}
+
+.imagem1{
+    position: relative;
+    left: 813px;
+    bottom: 63px;
+    width: 46vw;
+    height: 100vh;
+    
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+section{
+    position: absolute;
+    padding: 130px;
+    background-color: #DCDCDC;
+}
+
+.menu{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+    margin-right: 32px;
+    color: white;
+    padding: 26px;
+
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.403846px;
+    width: 503px;
+    height: 10px;
+    margin-top: -38px;
+    margin-left: 50px;
+}
+
+.botao1{
+    width: 185px;
+    height: 65px;
+    border-radius: 6px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    margin: 448px 0 0 88px;
+}
+
+.botao2{
+    width: 185px;
+    height: 65px;
+    color: black;
+    border-radius: 6px;
+    background: #C0C0C0;
+    border: 1px solid #C0C0C0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.menu:hover{
+    opacity: 0.8;
+}
+
+.menu:active{
+    opacity: 0.5;
+}
+
+.botao1:hover{
+    opacity: 0.8;
+}
+
+.botao1:active{
+    opacity: 0.5;
+}
+
+.botao2:hover{
+    opacity: 0.8;
+}
+
+.botao2:active{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 900px) {
+    .mae{
+        display: block;
+        position: static;
+    }
+
+    .menu {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1px;
+        letter-spacing: 2.875px;
+        cursor: pointer;
+        margin-right: 6px;
+        color: white;
+        padding: 1px;
+    }
+
+    section {
+        position: static;
+        padding: 40px;
+        background-color: #DCDCDC;
+    }
+
+    .titulo {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: 0.596154px;
+        width: 337px;
+        height: 10px;
+        margin-top: 1px;
+        margin-left: 38px;
+    }
+
+    .botao1 {
+        width: 105px;
+        height: 35px;
+        border-radius: 6px;
+        background: black;
+        border: 1px solid black;
+        color: white;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 10px;
+        letter-spacing: 1px;
+        margin: 328px 0 0 45px;
+    }
+
+    .botao2{
+        width: 105px;
+        height: 35px;
+        color: black;
+        border-radius: 6px;
+        background: #C0C0C0;
+        border: 1px solid #C0C0C0;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1px;
+    }
+
+    .imagem1{
+        width: 100vw;
+        height: 100vh;
+        position: static;
+    }
+
+
+}
